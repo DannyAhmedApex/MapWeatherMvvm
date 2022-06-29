@@ -1,0 +1,12 @@
+
+
+package com.danny.mapswithgeofencing.network.response.nearybyplaces
+
+
+import com.google.gson.annotations.SerializedName
+
+
+data class OpeningHours(
+        @SerializedName("open_now")
+        val openNow: Boolean
+)
